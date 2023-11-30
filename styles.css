@@ -186,7 +186,6 @@ header {
     }
   }
   
-  /
   @media (min-width: 300px) {
     .logo {
       flex-basis: 100%;
