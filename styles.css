@@ -4,33 +4,36 @@ header {
     margin-right: -10px;
     margin-top: -8px;
     overflow: hidden;
-    border-bottom: 15px solid #D98555;
+    border-bottom: .8rem solid #D98555;
   }
   
+  .logocontainer {
+    border: solid;
+    margin-right: auto;
+  }
+
   .logo {
-    flex-basis: 100%;
-    text-align: center;
+    width: 200px;
   }
     
   nav ul {
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
     list-style-type: none;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: solid green;
   }
    nav li {
-    margin: 0 1rem;
+    margin: 0 .5rem;
+    border: solid red;
   }
   
   nav a {
     font-weight: bold;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    display: block;
+    padding: 1rem;
     color: #ffffff;
+    border: solid rgb(0, 81, 255);
   }
   
   nav a:hover {
@@ -92,28 +95,29 @@ header {
   
   
   footer {
-    height: 5rem;
     background-color: #132B56;
     border-top: 15px solid #CD885E;
     margin-left: -8px;
-    overflow: hidden;
     padding-top: 2rem;
     position: absolute;
     bottom: 0;
     width: 100%;
     color: #ffffff;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    padding-bottom: 50px;
   }
   
   footer p {
-    margin-right: 1rem;
+    text-align: center;
   }
   
   footer a {
     color: #ffffff;
     display: inline-block;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
   }
   
   footer a:hover {
@@ -123,6 +127,7 @@ header {
   i {
     margin: 1.6rem 1rem 0rem 0rem;
     padding-right: .5rem;
+    font-size: xx-large;
   }
   
   button {
@@ -139,67 +144,4 @@ header {
     background-color: #D98555;
     color: #000000;
     font-weight: bold;
-  }
-  
-  
-  
-  
-  /* responsive test */
-  
-  @media (min-width: 768px) {
-    .logo {
-      flex-basis: 100%;
-      text-align: center;
-    }
-      nav {
-      margin-left: 0;
-    }
-      nav ul {
-      display: flex;
-      flex-flow: row wrap;
-      gap: 0rem;
-      justify-content: center;
-    }
-      nav a {
-      margin: 0 0 0 0;
-    }
-      .image2 {
-      width: 250px;
-        margin-top: 5rem;
-    }
-  
-  }
-  
-  @media (min-width: 992px) {
-    .logo {
-      flex-basis: 100%;
-      margin-right: auto;
-    }
-    nav ul {
-      justify-content: center;
-    }
-    nav a {
-      margin-top: 0rem;
-    }
-    .image2 {
-      width: 300px;
-      margin-top: 0rem;
-    }
-  }
-  
-  @media (min-width: 300px) {
-    .logo {
-      flex-basis: 100%;
-      margin-right: auto;
-    }
-    nav ul {
-      justify-content: center;
-    }
-    nav a {
-      margin-top: 0rem;
-    }
-    .image2 {
-      flex-basis: 35%;
-      margin-top: 5rem;
-    }
   }
