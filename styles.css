@@ -2,7 +2,7 @@ header {
     background-color: #082B59;
     margin-left: -10px;
     margin-right: -10px;
-    margin-top: -8px;
+    margin-top: -15px;
     overflow: hidden;
     border-bottom: .8rem solid #D98555;
   }
@@ -52,6 +52,11 @@ header {
     font-family: Lato, sans-serif;
     line-height: 2rem;
     font-size: 18px;
+    background-image: url(media/images/gulp-bottom-beans.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding-bottom: 250px;
+    border: solid green;
   }
   
   .pos_cen {
@@ -68,18 +73,10 @@ header {
   }
   
   .image2 {
-    width: 300px;
+    width: 500px;
     border-radius: 10px;
-  }
-  
-  figure {
-    border: 1px hidden;
-    width: 300px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-    Margin-top: -20px;
-    border-radius: 10px;
-    color: #ffffff
+    margin-top: 50px;
+    margin-left: 50px;
   }
   
   figure figcaption {
@@ -96,14 +93,14 @@ header {
   
   footer {
     background-color: #132B56;
-    border-top: 15px solid #CD885E;
+    width: 100%;
     margin-left: -8px;
     padding-top: 2rem;
     position: absolute;
     bottom: 0;
-    width: 100%;
     color: #ffffff;
     padding-bottom: 50px;
+    border: solid green;
   }
   
   footer p {
