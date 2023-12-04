@@ -5,7 +5,7 @@ header {
   }
   
   .logocontainer {
-    border: solid;
+    border: hidden;
     margin-right: auto;
   }
 
@@ -19,11 +19,11 @@ header {
     justify-content: flex-end;
     align-items: flex-end;
     margin: 0 auto 0 auto;
-    border: solid green;
+    border: hidden green;
   }
    nav li {
     margin: 0 .5rem;
-    border: solid red;
+    border: hidden red;
   }
   
   nav a {
@@ -31,7 +31,7 @@ header {
     text-decoration: none;
     padding: 1rem;
     color: #ffffff;
-    border: solid rgb(0, 81, 255);
+    border: hidden rgb(0, 81, 255);
   }
   
   nav a:hover {
@@ -55,7 +55,7 @@ header {
     background-repeat: repeat-x;
     background-position: bottom;
     margin-bottom: 300px;
-    border: solid green;
+    border: hidden green;
   }
   
   .contentflex {
@@ -64,7 +64,7 @@ header {
     margin-top: 3%;
     display: flex;
     flex-flow: row-reverse;
-    border: solid #000000;
+    border: hidden #000000;
   }
   
   .content {

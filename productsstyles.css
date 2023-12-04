@@ -1,19 +1,16 @@
 header {
   background-color: #082B59;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -8px;
-  overflow: hidden;
   border-bottom: .8rem solid #D98555;
+  padding: 0 0 1rem 0;
 }
 
 .logocontainer {
-  border: solid;
+  border: hidden;
   margin-right: auto;
 }
 
 .logo {
-  width: 200px;
+  width: 25%;
 }
   
 nav ul {
@@ -21,11 +18,12 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  border: solid green;
+  margin: 0 auto 0 auto;
+  border: hidden green;
 }
  nav li {
   margin: 0 .5rem;
-  border: solid red;
+  border: hidden red;
 }
 
 nav a {
@@ -33,61 +31,97 @@ nav a {
   text-decoration: none;
   padding: 1rem;
   color: #ffffff;
-  border: solid rgb(0, 81, 255);
+  border: hidden rgb(0, 81, 255);
 }
-  
-  nav a:hover {
-    color: #D98555;
-  }
 
-  span {
-    padding-right: 1rem
-  }
-  
-  h1 {
-    font-family: Poppins, sans-serif;
-  }
-  
-  body {
-    font-family: Lato, sans-serif;
-    line-height: 2rem;
-    font-size: 18px;
-  }
+nav a:hover {
+  color: #D98555;
+}
+
+span {
+  padding-right: 1rem
+}
+
+h1 {
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  line-height: 2rem;
+  font-size: 18px;
+  margin: auto;
+  background-image: url(media/images/gulp-bottom-beans.jpg);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  margin-bottom: -200px;
+  border: hidden green;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  grid-template-rows: 400px 400px;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: space-evenly;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 
 
-  footer {
-    background-color: #132B56;
-    border-top: 15px solid #CD885E;
-    margin-left: -8px;
-    padding-top: 2rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: #ffffff;
-    padding-bottom: 50px;
-    overflow: auto;
-  }
-  
-  footer p {
-    text-align: center;
-  }
-  
-  footer a {
-    color: #ffffff;
-    display: inline-block;
-  }
+content {
+  display: flex;
+  flex-direction: row wrap
+}
+.img1, .img2, .img3 {
+  width: ;
+}
 
-  .socials {
-    display: flex;
-    justify-content: center;
-  }
-  
-  footer a:hover {
-    color: #D98555;
-  }
-  
-  i {
-    margin: 1.6rem 1rem 0rem 0rem;
-    padding-right: .5rem;
-    font-size: xx-large;
-  }
+
+footer {
+  background-color: #132B56;
+  width: 100%;
+  height: 15%;
+  margin: 0 -6px 0 auto;
+  text-align: center;
+  position: bottom;
+  bottom: 0;
+  color: #ffffff;
+  padding-bottom: 50px;
+  overflow: hidden;
+  border: hidden green;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  color: #ffffff;
+  display: inline-block;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+footer a:hover {
+  color: #D98555;
+}
+
+i {
+  margin: 1.6rem 1rem 0rem 0rem;
+  padding-right: .5rem;
+  font-size: xx-large;
+}
