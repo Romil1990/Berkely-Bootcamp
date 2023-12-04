@@ -55,13 +55,13 @@ body {
   background-repeat: repeat-x;
   background-position: bottom;
   margin-bottom: -240px;
-  border: solid green;
+  border: hidden green;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  border: solid #D98555;
+  border: hidden #D98555;
   padding: 10px 0 200px 0;
   column-gap: 1rem;
   row-gap: 1rem;
@@ -72,7 +72,7 @@ body {
 
 .grid-item, .grid-img {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 1px hidden rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -104,10 +104,11 @@ footer {
   bottom: 0;
   color: #ffffff;
   padding-bottom: 50px;
-  border: solid rgb(128, 0, 0);
+  border: hidden rgb(128, 0, 0);
 }
 
 footer p {
+  padding: 1rem 0 0 0;
   text-align: center;
 }
 
