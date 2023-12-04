@@ -1,6 +1,7 @@
 header {
     background-color: #082B59;
     border-bottom: .8rem solid #D98555;
+    padding: 0 0 1rem 0;
   }
   
   .logocontainer {
@@ -9,7 +10,7 @@ header {
   }
 
   .logo {
-    width: 200px;
+    width: 25%;
   }
     
   nav ul {
