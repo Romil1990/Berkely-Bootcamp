@@ -52,7 +52,6 @@ header {
     font-size: 18px;
     height: 100vh;
     margin: auto;
-    border:  hidden green;
   }
 
 .content {
@@ -64,15 +63,17 @@ header {
 
 li {
   list-style-type: none;
+  line-height: 1.5rem;
 }
 
 h1 {
-    padding: 0 0 1rem 0;
+    padding: 0 0 2rem 0;
 }
 
 .contact {
     margin: 6rem;
     line-height: 1rem;
+    
 }
 
 .image2 {
@@ -81,7 +82,7 @@ h1 {
 }
 
 .background-footer {
-  margin: 8.3rem;
+  margin: 8.6rem;
 }
 
 .background-container {
@@ -99,7 +100,6 @@ h1 {
   height: 15%;
   text-align: center;
   position: bottom;
-  bottom: 0;
   color: #ffffff;
   padding-bottom: 50px;
 }
