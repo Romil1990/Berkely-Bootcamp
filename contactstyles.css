@@ -62,6 +62,10 @@ header {
     padding: 10rem 30rem 0 30rem;
 }
 
+li {
+  list-style-type: none;
+}
+
 h1 {
     padding: 0 0 1rem 0;
 }
