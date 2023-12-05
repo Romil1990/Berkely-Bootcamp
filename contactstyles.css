@@ -133,3 +133,65 @@ i {
   padding-right: .5rem;
   font-size: xx-large;
 }
+
+@media screen and (max-width: 430px) {
+
+  .logocontainer {
+    margin: 0 auto 0 auto;
+    align-items: center;
+    height: fit-content;
+   }
+ 
+   nav ul {
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-right: 50px;
+     padding-bottom: 1rem;
+   }
+ 
+   nav li {
+    padding-top: 1.2rem;
+  }
+ 
+
+  body {
+    height: 100vh;
+  }
+
+  .image2 {
+    width: 90%;
+    height: 90%;
+    padding: 2rem 0 2rem 0;
+  }
+
+  .contact {
+    margin: auto auto 0 0;
+  }
+
+  .contact li {
+    padding-top: .5rem;
+  }
+
+  .content {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center;
+  padding: 0 0 0 0;
+  }
+
+  .footer {
+  height: 39.5%;
+  }
+
+  .footertext {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .background-footer {
+  margin: 1rem 0 0 0;
+  }
+}
