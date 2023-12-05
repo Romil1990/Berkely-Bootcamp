@@ -79,7 +79,7 @@ body {
   font-size: 18px;
 }
 h1{
-  margin: 4rem 0 0 0;
+  margin: 4rem 0 0 39.2rem;
   padding: 0 0 2rem 2rem;
 }
 p, h2 {
@@ -87,14 +87,15 @@ p, h2 {
 }
 
 .img1, .img2, .img3 {
-  width: 100%;
+  width: 384px;
+  height: 245px;
   text-align: center;
   border-radius: 10px;
 }
 
 
 .background-footer {
-  margin: 8.6rem;
+  margin: 0rem;
 }
 
 .background-container {
