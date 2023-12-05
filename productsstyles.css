@@ -48,14 +48,12 @@ h1 {
 
 body {
   font-family: Lato, sans-serif;
-  line-height: 2rem;
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 38.4px;
   font-size: 18px;
+  height: 100vh;
   margin: auto;
-  background-image: url(media/images/gulp-bottom-beans.jpg);
-  background-repeat: repeat-x;
-  background-position: bottom;
-  margin-bottom: -240px;
-  border: hidden green;
 }
 
 .grid-container {
@@ -133,7 +131,7 @@ p, h2 {
   justify-content: center;
 }
 
-footer a:hover {
+.footer a:hover {
   color: #D98555;
 }
 

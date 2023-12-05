@@ -48,7 +48,9 @@ header {
   
   body {
     font-family: Lato, sans-serif;
-    line-height: 2rem;
+    font-weight: 400;
+    font-size: 19.2px;
+    line-height: 38.4px;
     font-size: 18px;
     height: 100vh;
     margin: auto;
@@ -119,7 +121,7 @@ h1 {
   justify-content: center;
 }
 
-footer a:hover {
+.footer a:hover {
   color: #D98555;
 }
 
