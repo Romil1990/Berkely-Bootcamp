@@ -5,12 +5,12 @@ header {
 }
 
 .logocontainer {
-  border: hidden;
   margin-right: auto;
 }
 
 .logo {
-  width: 25%;
+  width: 200px;
+  height: 133px;
 }
   
 nav ul {
@@ -59,7 +59,7 @@ body {
 .content {
   display: flex;
   flex-flow: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
   padding: 5rem 30rem 0 30rem;
 }
 
@@ -150,4 +150,60 @@ i {
 margin: 1.6rem 1rem 0rem 0rem;
 padding-right: .5rem;
 font-size: xx-large;
+}
+
+@media screen and (max-width: 430px) {
+
+  .logocontainer {
+   margin: 0 auto 0 auto;
+   align-items: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    padding-bottom: 1rem;
+  }
+
+  nav li {
+    padding-top: 1.5rem;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  .image2 {
+    width: 90%;
+    height: 90%;
+  }
+
+  .about {
+    margin: auto;
+    padding: 0 2rem 0 2rem;
+  }
+
+  .content {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center;
+  padding: 0 0 0 0;
+  }
+
+  .footer {
+  height: 39.5%;
+  }
+
+  .footertext {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .background-footer {
+  margin: 1rem 0 0 0;
+  }
 }
