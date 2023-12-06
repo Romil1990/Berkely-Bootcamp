@@ -177,9 +177,6 @@ font-size: xx-large;
   }
 }
 
-.image2 {
-}
-
 .content {
   display: flex;
   flex-flow: row-reverse;
