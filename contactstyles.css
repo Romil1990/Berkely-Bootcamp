@@ -133,7 +133,43 @@ i {
   font-size: xx-large;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 1024px) {
+  .logocontainer {
+    margin: 0 auto 0 auto;
+    align-items: center;
+    height: fit-content;
+   }
+ 
+   nav ul {
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 1rem;
+   }
+ 
+   nav li {
+    padding-top: 1.2rem;
+  }
+ 
+
+  body {
+    height: 100vh;
+  }
+
+  .content {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    margin-right: 6rem;
+  }
+
+  .image2 {
+    margin-left: -2rem;
+  }
+}
+@media screen and (max-width: 480px) {
 
   .logocontainer {
     margin: 0 auto 0 auto;
@@ -179,6 +215,7 @@ i {
   flex-flow: column-reverse;
   align-items: center;
   padding: 0 0 0 0;
+  margin-right: 0rem;
   }
 
   .footer {
