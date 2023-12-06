@@ -174,7 +174,7 @@ i {
 
   .grid-container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .img1, .img2, .img3 {
     width: 90%;
